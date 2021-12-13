@@ -61,6 +61,15 @@ class _DicePageState extends State<DicePage> {
             ),
           ],
         ),
+        Text(
+          'Dicee',
+          style: TextStyle(
+            color: Colors.black,
+            fontSize: 40,
+            fontFamily: ('Pacifico'),
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         Padding(
           padding: const EdgeInsets.all(50.0),
           child: SizedBox(
